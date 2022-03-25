@@ -23,7 +23,10 @@ const Meals = () => {
             }
         </div>
         <div className="cart-container">
-            <Cart cart={cart}></Cart>
+            <h3 className='cart-heading'>Order Summery</h3>
+            {
+                cart.map(details=><Cart key={details.id} cartinfo={details}></Cart>)
+            }
         </div>
         </div>
     );
