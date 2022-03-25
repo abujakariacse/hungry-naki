@@ -5,8 +5,8 @@
     margin-left: 40px;
 }
 .meal{
-    height: 500px;
     position: relative;
+    height: 500px;
     box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.924);
     border-radius: 10px;
 }
