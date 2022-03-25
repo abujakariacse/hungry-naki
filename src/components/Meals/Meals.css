@@ -6,8 +6,9 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
-    margin-top: 40px;
+    margin: 30px;
 }
 .cart-container{
-    background-color: aquamarine;
+    background-color: #d70f64;
+    color: white;
 }
