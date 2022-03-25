@@ -3,54 +3,54 @@
     "id": "623deea6625c145b56929483",
     "price": "$16.43",
     "image": "https://i.ibb.co/HKSvgQn/food-1.jpg",
-    "name": "sandwich"
+    "name": "Sandwich"
   },
   {
     "id": "623deea60403848ab734e2d0",
     "price": "$15.36",
     "image": "https://i.ibb.co/zsB7qDp/food-2.jpg",
-    "name": "bread"
+    "name": "Bread"
   },
   {
     "id": "623deea656c5448da20c2dc7",
     "price": "$15.32",
     "image": "https://i.ibb.co/55048CC/food-3.jpg",
-    "name": "steak"
+    "name": "Steak"
   },
   {
     "id": "623deea66ebc7560012fb521",
     "price": "$11.43",
     "image": "https://i.ibb.co/kcB2GxR/food-4.jpg",
-    "name": "shrimp"
+    "name": "Shrimp"
   },
   {
     "id": "623deea65935b9ad6825f0fe",
     "price": "$13.16",
     "image": "https://i.ibb.co/nBmrpn0/food-5.jpg",
-    "name": "spaghetti"
+    "name": "Spaghetti"
   },
   {
     "id": "623deea6a3e80854b736d9f4",
     "price": "$14.75",
     "image": "https://i.ibb.co/pfXdRBJ/food-6.jpg",
-    "name": "pizza"
+    "name": "Pizza"
   },
   {
     "id": "623deea6eb7f60b23e4e3fe1",
     "price": "$10.59",
     "image": "https://i.ibb.co/nw93pgB/food-7.jpg",
-    "name": "hamburger"
+    "name": "Hamburger"
   },
   {
     "id": "623deea679ee8ca433198730",
     "price": "$16.27",
     "image": "https://i.ibb.co/w6W4ZV2/food-8.jpg",
-    "name": "eggs"
+    "name": "Eggs"
   },
   {
     "id": "623deea6285eeae9d229a4ce",
     "price": "$17.80",
     "image": "https://i.ibb.co/41YWyRB/food-9.jpg",
-    "name": "cheese"
+    "name": "Cheese"
   }
 ]
