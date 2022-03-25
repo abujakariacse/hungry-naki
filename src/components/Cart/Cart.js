@@ -13,7 +13,7 @@ const Cart = (props) => {
                      }
             
                 </div>
-                <button onClick={random} className='choose-btn'>Choose 1 for me</button>
+                <button onClick={random} className='choose-btn'>Choose 1 for me</button><br />
                 <button onClick={chooseAgain} className='choose-again'>Choose Again</button>
             </div>
             

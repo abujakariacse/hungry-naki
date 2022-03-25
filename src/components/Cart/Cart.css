@@ -8,11 +8,25 @@
     width: 50px;
     border-radius: 50%;
 }
+.choose-btn,.choose-again{
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 30px;
+    border: none;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width:688px) {
     .info{
         margin: 0;
     }
     .name{
     margin:0;
+}
+.choose-btn,.choose-again{
+    margin-left: 0;
 }
 }

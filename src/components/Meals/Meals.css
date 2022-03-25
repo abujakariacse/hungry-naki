@@ -16,15 +16,7 @@
 .cart-heading{
     margin-left: 30px;
 }
-.choose-btn{
-    height: 50px;
-    border-radius: 5px;
-    margin-left: 30px;
-    border: none;
-    background-color: blue;
-    font-size: 16px;
-    color: white;
-}
+
 @media only screen and (max-width:688px) {
     .meal-container{
         display: grid;
@@ -36,12 +28,10 @@
         display: grid;
         grid-template-columns: 3fr 1fr;
     }
-    .choose-btn{
-        margin: 0;
-        margin-top: 10px;
-    }
+  
     .cart-container{
         border: 2px solid green;
+        margin-top: 30px;
         
     }
 }
