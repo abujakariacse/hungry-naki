@@ -15,6 +15,7 @@ const Meals = () => {
         const newCart = [...cart,meal]
         setCart(newCart)
     };
+    console.log(cart)
     return (
         <div className='shop-container'>
             <div className='meal-container'> 
@@ -23,10 +24,11 @@ const Meals = () => {
             }
         </div>
         <div className="cart-container">
-            <h3 className='cart-heading'>Order Summery</h3>
+            <h3 className='cart-heading'>Cart Summery</h3>
             {
-                cart.map(details=><Cart key={details.id} cartinfo={details}></Cart>)
+                cart.map(cartInfo=><Cart cart={cartInfo} key={cartInfo.id}></Cart>)
             }
+            <button className='choose-btn'>Choose 1 for me</button>
         </div>
         </div>
     );

@@ -14,7 +14,7 @@
     padding: 0 30px;
     margin: 0;
 }
-button{
+.addtocart-btn{
     border: none;
     width: 100%;
     height: 40px;
@@ -25,4 +25,8 @@ button{
     position: absolute;
     left: 0;
     bottom: 0;
+}
+.addtocart-btn:hover{
+    background-color: blue;
+    transition: 0.6s;
 }
