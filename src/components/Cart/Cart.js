@@ -2,14 +2,19 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {cart} = props;
+    const {cart,random,chooseAgain} = props;
+    
     
     return (
             <div>
                 <div className='info'>
-                    <img className='cart-img' src={cart.image} alt="" />
-                    <h4 className='name'>{cart.name}</h4>
+                    {
+                        cart.map(meal=><h4 key={meal.id}>{meal.name}</h4>)
+                     }
+            
                 </div>
+                <button onClick={random} className='choose-btn'>Choose 1 for me</button>
+                <button onClick={chooseAgain} className='choose-again'>Choose Again</button>
             </div>
             
     );
