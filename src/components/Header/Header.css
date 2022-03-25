@@ -1,0 +1,11 @@
+.heading{
+    margin-top: 60px;
+    font-size: 40px;
+    line-height: 0;
+}
+.sub-heading{
+margin: 0;
+font-size: 18px;
+font-weight: 500;
+color: gray;
+}
