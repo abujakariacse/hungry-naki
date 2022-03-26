@@ -10,15 +10,18 @@ const Meals = () => {
         .then(res=>res.json())
         .then(data=>setMeals(data))
     },[]);
+    // Cart state declare
     const [cart,setCart] = useState([]);
     const addToCart = (meal) =>{
         const newCart = [...cart,meal]
         setCart(newCart)
     };
+    // Function for choose for me button
     const randomItems =()=>{
         const random = cart[Math.floor(Math.random() * cart.length)];
         setCart([random]);
     }
+    // Function for choose again button
     const chooseAgain = () =>{
         setCart([])
     }

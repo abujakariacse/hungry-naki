@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cart.css'
-
+// Shopping Cart
 const Cart = (props) => {
     const {cart,random,chooseAgain} = props;
     

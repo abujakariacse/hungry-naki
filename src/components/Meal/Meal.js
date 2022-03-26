@@ -1,8 +1,9 @@
+// Font awesome 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Meal.css'
-
+// Single Meal/Card item
 const Meal = (props) => {
     const {meal,addToCart} = props;
     const {id,image,name,price} = meal ;
