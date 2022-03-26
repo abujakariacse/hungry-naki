@@ -14,7 +14,12 @@ const Meals = () => {
     const [cart,setCart] = useState([]);
     const addToCart = (meal) =>{
         const newCart = [...cart,meal]
-        setCart(newCart)
+        if(cart.length < 4){
+            setCart(newCart)
+        }
+        else{
+            alert("You can't add more than 4 meal")
+        }
     };
     // Function for choose for me button
     const randomItems =()=>{
