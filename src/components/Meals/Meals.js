@@ -38,7 +38,6 @@ const Meals = () => {
             }
         </div>
         <div className="cart-container">
-            <h3 className='cart-heading'>Cart Summery</h3>
            <Cart cart={cart} random={randomItems} chooseAgain={chooseAgain}></Cart>
         </div>
         </div>

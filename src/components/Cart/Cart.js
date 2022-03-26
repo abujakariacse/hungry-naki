@@ -6,7 +6,8 @@ const Cart = (props) => {
     
     
     return (
-            <div>
+            <div className='cart'>
+                <h3 className='cart-heading'>Cart Summery</h3>
                 <div className='info'>
                     {
                         cart.map(meal=><h4 key={meal.id}>{meal.name}</h4>)
